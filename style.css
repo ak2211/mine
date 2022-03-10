@@ -1,0 +1,693 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.nav-custom{
+    position: absolute;
+    background: transparent;
+}
+
+.banner{
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    height: 865px;
+    display: flex;
+    align-items: end;
+    padding-bottom: 100px;
+}
+
+
+.nav-custom {
+    position: absolute;
+    background: transparent;
+    left: 0;
+    right: 0;
+    padding: 0px 80px;
+}
+
+.nav-font{
+    color: white !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+}
+
+.navbar .navbar-nav a{
+    color: #cdcccd;
+    font-size: 14px;
+}
+
+.banner .container .custom h2{
+    color: #cdcccd;
+    font-size: 33px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+
+}
+
+.banner .container .custom h1{
+    color: white;
+    font-size: 83px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner .container .custom p{
+    color: #cdcccd;   
+}
+
+.banner .btn{
+    background-color: #debe6b;
+    color: white;
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;  
+}
+
+.banner .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.banner .btn:hover {
+    background-color: #e6ae20;
+    text-decoration: none;
+}
+
+.about{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about h1{
+    font-size: 48px;
+    color: #debe6b;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.about h2{
+    color: #999999;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    letter-spacing: 6px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+.about p{
+    color: #666666;
+    font-size: 16px;
+}
+
+.about::before {
+    content: "";
+    position: absolute;
+    white-space: pre;
+    display: inline;
+    left: 50%;
+    transform: translate(-50%, -25px);
+    width: 70px;
+    height: 5px;
+    background: #aaaaaa;
+}
+
+.partner{
+    background-color: #000000;
+    position: relative;
+    background-image: url(./images/Layer-24.png);
+}
+
+.partner h1{
+    color: #9a9a9a;
+    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    padding: 50px 0px;
+}
+
+.partner p{
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: -60px;
+    margin-bottom: 50px;
+}
+
+.partner-img img{
+    margin-bottom: -300px;
+}
+
+.sample{
+padding-top: 410px;
+}
+
+.sample .col-4{
+    padding-top: 10px;
+}
+
+.sample h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.sample h6{
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #999999;
+    letter-spacing: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.sample p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #666666;
+    padding-bottom: 70px;
+    line-height: 30px;
+}
+
+.sample-2{
+    padding-top: 90px;
+}
+
+.sample-2 h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+
+}
+
+.sample-2 h6{
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #999999;
+    letter-spacing: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.sample-2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.collection{
+    background-image: url(./images/Layer-29.jpg);
+    margin-top: 130px;
+}
+
+.slider{
+    padding-left: 400px;
+}
+
+.slick-next{
+    background-color: #debe6b;
+    color: white;
+    border: none;
+    width: 170px;
+    height: 70px;
+    font-size: 14pt;
+    margin-left: -200px;
+    position: absolute;
+    margin-top: -420px;
+}
+
+.slick-prev{
+    background:transparent;
+    color: white;
+    border: 1px solid white;
+    width: 170px;
+    height: 70px;
+    font-size: 14pt;
+    margin-left: -200px;
+    position: absolute;
+    margin-top: 200px;
+}
+
+
+.slick-next:after{
+    content: "\e900";
+    background: transparent;
+    border: none;
+    color: white;
+    font-family: "icomoon";
+    position: absolute;
+    right: -10px;
+    padding: 0px 44px;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.slick-prev::after{
+    content: "\e901";
+    font-family: "icomoon";
+    position: absolute;
+    left: -10px;
+    padding: 0px 44px;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 20px
+}
+
+.slick-next:hover{
+    background-color: #e6ae20;
+}
+
+.slick-prev:hover{
+    background-color: #666666;
+}
+
+.slick-next:focus{
+    outline: none;
+}
+
+.slick-prev:focus{
+    outline: none;
+}
+
+.text{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.collection h1{
+    font-size: 48px;
+    font-weight: normal;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.collection p{
+    color: white;
+    font-size: 16px;
+    letter-spacing: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.slider h6{
+    padding-top: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.slider h1{
+    color: #debe6b;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.slider p{
+    letter-spacing: normal;
+    font-size: 12px;
+}
+
+.slider a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    padding: 0px 20px;
+}
+
+.colors{
+    background-image: url(./images/background-colors.jpg);
+    height: 580px;
+}
+
+.colors h1{
+    font-family: 'Oswald', sans-serif;
+    text-transform:uppercase;
+    text-align: center;
+    padding-top: 80px;
+    color: #333333;
+}
+
+.colors p{
+    text-transform:uppercase;
+    font-family:' Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    color: #333333;
+}
+
+.colors .images ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colors .images ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 30px;
+}
+
+.colors .images ul li img{
+    max-width: 100%;
+}
+
+.colors .images ul li:nth-child(odd){
+    margin-top: -50px;
+}
+
+.colors .images ul li:nth-child(even){
+    margin-top: 51px;
+}
+
+.satisfied-customer .text h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family:'Oswald', sans-serif;
+    font-weight: normal;
+    color: #000000;
+    font-size: 35.5px;
+    padding-bottom: 10px;
+}
+
+.satisfied-customer .text p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family:'Oswald', sans-serif;
+    font-weight: normal;
+    color: #999999;
+    font-size: 16px;
+    letter-spacing: 10px;
+    padding-bottom: 85px;
+}
+
+.custom-slider img {
+    width: auto;
+    margin: 0 auto; 
+}
+
+.custom-slider p{  
+    text-align: center; 
+    color: #aaaaaa;   
+    padding-top: 60px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -45px;
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    border: 0;
+    background: transparent;
+    display: block;
+    height: 20px;
+    width: 20px;
+    outline: none;
+    line-height: 0;
+    font-size: 0;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+  outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before 
+{
+    opacity: 1;
+}
+
+.slick-dots li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "•";
+    width: 20px;
+    height: 20px;
+    font-family: "slick";
+    font-size: 50px;
+    line-height: 5px;
+    text-align: center;
+    color: black;
+    opacity: 0.25;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+    color: black;
+    opacity: 1;
+}
+
+.custom-slider .slick-next{
+    background-color: transparent;
+    color: non;
+    border: none;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    margin-left: 0;
+    position: absolute;
+    margin-top: 0;
+    top: 0;
+    right: 377px;
+    left: auto;
+}
+
+.custom-slider .slick-prev{
+    background:transparent;
+    color: black;
+    width: 0px;
+    height: 0px;
+    font-size: 0px;
+    margin-left: 0px;
+    position: absolute;
+    margin-top: 0px;
+}
+
+
+.custom-slider .slick-next::after{
+    content: "\eaed";
+    background: transparent;
+    border: none;
+    color: black;
+    font-family: "icomoon";
+    position: absolute;
+    right: 0;
+    padding: 0px;
+    top: 0;
+    transform: none;
+    font-size: 48pt;
+    margin-left: 0px;
+}
+
+.custom-slider .slick-prev::after{
+    content: "\eaee";
+    font-family: "icomoon";
+    position: absolute;
+    padding: 0px;
+    top: 0%;
+    transform: none;
+    font-size: 48pt;
+    z-index: 1;
+    right: 0;
+    left: 377px;
+}
+
+.instagram{
+    padding-top: 120px;
+}
+
+.instagram .ig-img{
+    padding-bottom: 80px;
+}
+
+.instagram .ig-img ul{
+    display: flex;
+}
+
+.instagram .ig-img ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.instagram .ig-img ul li img{
+    width: 100%;
+}
+
+.subscribe{
+    padding: 60px 0;
+    background-color: #debe6b;
+}
+
+.subscribe .text{
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.subscribe h6{
+    font-size: 14pt;
+    color: black;
+    text-transform: uppercase;
+}
+
+.subscribe h1{
+    font-size: 36pt;
+    color: white;
+    text-transform: uppercase;
+    font-family:'Oswald', sans-serif;
+}
+
+.subscribe p{
+    text-transform: capitalize;
+    color: white;
+    font-size: 14pt;
+    font-family:' Open Sans', sans-serif;
+}
+
+.subscribe .subscribe-form .form{
+    height: 60px;
+    width: 570px;
+    background-color: #e3c77f;
+    border: none;
+    border-radius: 0;
+    color: white;
+    display: flex;
+    padding-left: 10px;
+}
+
+.subscribe .subscribe-form .form :focus{
+    outline: none;
+}
+
+.subscribe .subscribe-form .btn{
+    background-color: white;
+    border: none;
+    border-radius: 0;
+    height: 60px;
+    width: 200px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.subscribe .subscribe-form .form::placeholder{
+    color: white;
+    text-transform: capitalize;
+}
+
+.contact{
+    background-color: #333333;
+    padding: 70px 200px;
+}
+
+.contact .contact-us h2{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+
+}
+
+.contact .twitter h2{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    text-align: right;
+}
+
+.contact .contact-us p{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.contact .twitter p{
+    font-size: 14px;
+    color: #ffffff;
+    text-align: right;
+}
+
+.contact .twitter p span{
+    font-size: 14px;
+    color: #999999;
+    text-align: right;
+    line-height: 40px;
+}
+
+.contact .twitter p span::before{
+    content: "\ea98";
+    font-size: 14px;
+    font-family:"icomoon";
+    text-align: left;
+    padding: 0px 3px;
+}
+
+.copyright{
+    padding: 50px;
+    background-color: #333333;
+    border-top: 1px solid #484848;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.copyright h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14pt;
+    letter-spacing: 10px;
+    text-align: center;
+    font-weight: lighter;
+    font-family:'Oswald', sans-serif;
+}
+
+
